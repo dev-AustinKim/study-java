@@ -10,7 +10,6 @@ public class BoyDAO {
 		boyVO.setName(datas[i++]);
 		boyVO.setRanking(Integer.parseInt(datas[i++].replaceAll(",", "")));
 		boyVO.setPopulation(Integer.parseInt(datas[i++].replaceAll(",", "")));
-
 		return boyVO;
 	}
 }
