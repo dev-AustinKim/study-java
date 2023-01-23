@@ -20,5 +20,6 @@ public class Test {
 //      salaryDAO.delete(15100);
 //      System.out.println(salaryDAO.find(15000));
       System.out.println(salaryDAO.find(15000));
+      
    }
 }
